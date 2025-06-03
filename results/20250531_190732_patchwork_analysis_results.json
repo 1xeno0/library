@@ -1,0 +1,98 @@
+{
+  "processed_clips": [
+    {
+      "original_clip": {
+        "_id": "683b36fbf698a7f86f9d36dd",
+        "stream": {
+          "_id": "6834ec37e16b642f08cdd5fc",
+          "currentTitle": "Unknown",
+          "type": "kick",
+          "username": "coscu",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "coscu",
+        "path": "https://pw-clips.gobbo.gg/clips/coscu/6834ec37e16b642f08cdd5fc_1748711161025.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:06:03.287Z",
+        "updatedDate": "2025-05-31T17:06:03.287Z",
+        "__v": 0
+      },
+      "analysis": {
+        "description": "The video frames depict a live betting interface for a soccer match between Paris Saint-Germain FC and FC Inter Milano. The background features a dark blue theme with a sleek, modern design. On the left side, a vertical menu lists various sports categories, including Soccer, Cricket, and Basketball, with highlighted sections for 'Live Events' and 'My Bets'. The main content area displays match details, including the teams' names in bold white text: 'Paris Saint-Germain FC' and 'FC Inter Milano', along with betting odds in bright green and white text. The odds for Paris Saint-Germain FC are 2.12, for a draw 3.50, and for FC Inter Milano 3.55. A scoreboard section shows the time of the match as '4:00 PM 5/3/2025' and a live stats section on the right highlights team statistics, including goals scored and win probabilities. Below this, a small video window features a person with short dark hair, wearing a light gray sweater, sitting in front of a cluttered background filled with gaming chairs and shelves of shoes. The person appears to be focused on the screen, with a slight frown, indicating concentration. The overall lighting is dim, with a soft glow from the screen illuminating the person's face.",
+        "tags": [
+          "dark blue",
+          "white",
+          "green",
+          "soccer",
+          "Paris Saint-Germain FC",
+          "FC Inter Milano",
+          "live betting",
+          "odds",
+          "scoreboard",
+          "person",
+          "gray sweater",
+          "gaming chairs",
+          "shelves",
+          "concentration",
+          "modern design",
+          "statistics",
+          "live events"
+        ],
+        "title": "Live Betting Interface for Paris Saint-Germain FC vs FC Inter Milano",
+        "upload_date": "2025-04-23"
+      },
+      "processed_at": "2025-05-31T19:06:54.734422"
+    },
+    {
+      "original_clip": {
+        "_id": "683b36fbf698a7f86f9d36db",
+        "stream": {
+          "_id": "67c64634c19c12bf252e2c92",
+          "currentTitle": "Unknown",
+          "type": "twitch",
+          "username": "lacy",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "lacy",
+        "path": "https://pw-clips.gobbo.gg/clips/lacy/67c64634c19c12bf252e2c92_1748711160541.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:06:03.095Z",
+        "updatedDate": "2025-05-31T17:06:03.095Z",
+        "__v": 0
+      },
+      "analysis": {
+        "description": "The scene depicts a spacious, cozy gaming room with a high ceiling and wooden flooring. On the left side, a large gray sofa is adorned with colorful plush toys, including a panda and a red blanket. In front of the sofa, a soft orange blanket is draped over a person lying on a light gray sectional couch. The floor features a blue and white patterned rug with a distinct shape. The wall behind the sofa is decorated with a vibrant neon sign that reads 'THUGS' in dripping orange letters. Above the sign, framed sports memorabilia, including a purple jersey with the number 32 and a yellow jersey with the number 8, hang on the wall. To the right, a bright red decorative structure resembling a torii gate holds a collection of plush toys, including a yellow bear and a black panda. A glass-fronted refrigerator is visible, stocked with drinks. In the corner, a basketball hoop with a purple and yellow Lakers theme is mounted on the wall, with a blue net and basketballs visible. The room is illuminated by natural light streaming through large windows, creating a warm and inviting atmosphere.",
+        "tags": [
+          "gray sofa",
+          "orange blanket",
+          "neon sign",
+          "plush toys",
+          "basketball hoop",
+          "wooden flooring",
+          "high ceiling",
+          "sports memorabilia",
+          "red decorative structure",
+          "yellow bear",
+          "black panda",
+          "blue and white rug",
+          "natural light",
+          "cozy room",
+          "gaming room"
+        ],
+        "title": "Cozy Gaming Room with Neon Sign and Plush Toys",
+        "upload_date": "2025-04-23"
+      },
+      "processed_at": "2025-05-31T19:07:30.636261"
+    }
+  ],
+  "failed_clips": [],
+  "summary": {
+    "total_streamers": 2,
+    "total_clips": 2,
+    "successful_analyses": 2,
+    "failed_analyses": 0,
+    "success_rate": 100.0
+  }
+}

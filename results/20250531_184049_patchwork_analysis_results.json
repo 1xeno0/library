@@ -1,0 +1,84 @@
+{
+  "processed_clips": [],
+  "failed_clips": [
+    {
+      "clip": {
+        "id": "mock_clip_1_1",
+        "title": "Amazing Moment #1 from TestStreamer1",
+        "stream_id": "mock_stream_1",
+        "video_url": "https://renderer.ezr.lv/render/mock_clip_1_1",
+        "duration": 30,
+        "created_at": "2025-01-20T10:00:00Z"
+      },
+      "stream": "TestStreamer1",
+      "failed_at": "2025-05-31T18:09:13.820314"
+    },
+    {
+      "clip": {
+        "id": "mock_clip_1_2",
+        "title": "Amazing Moment #2 from TestStreamer1",
+        "stream_id": "mock_stream_1",
+        "video_url": "https://renderer.ezr.lv/render/mock_clip_1_2",
+        "duration": 35,
+        "created_at": "2025-01-20T11:00:00Z"
+      },
+      "stream": "TestStreamer1",
+      "failed_at": "2025-05-31T18:09:15.919246"
+    },
+    {
+      "clip": {
+        "id": "mock_clip_1_3",
+        "title": "Amazing Moment #3 from TestStreamer1",
+        "stream_id": "mock_stream_1",
+        "video_url": "https://renderer.ezr.lv/render/mock_clip_1_3",
+        "duration": 40,
+        "created_at": "2025-01-20T12:00:00Z"
+      },
+      "stream": "TestStreamer1",
+      "failed_at": "2025-05-31T18:09:18.004900"
+    },
+    {
+      "clip": {
+        "id": "mock_clip_2_1",
+        "title": "Amazing Moment #1 from TestStreamer2",
+        "stream_id": "mock_stream_2",
+        "video_url": "https://renderer.ezr.lv/render/mock_clip_2_1",
+        "duration": 30,
+        "created_at": "2025-01-21T10:00:00Z"
+      },
+      "stream": "TestStreamer2",
+      "failed_at": "2025-05-31T18:09:20.128544"
+    },
+    {
+      "clip": {
+        "id": "mock_clip_2_2",
+        "title": "Amazing Moment #2 from TestStreamer2",
+        "stream_id": "mock_stream_2",
+        "video_url": "https://renderer.ezr.lv/render/mock_clip_2_2",
+        "duration": 35,
+        "created_at": "2025-01-21T11:00:00Z"
+      },
+      "stream": "TestStreamer2",
+      "failed_at": "2025-05-31T18:09:47.246044"
+    },
+    {
+      "clip": {
+        "id": "mock_clip_2_3",
+        "title": "Amazing Moment #3 from TestStreamer2",
+        "stream_id": "mock_stream_2",
+        "video_url": "https://renderer.ezr.lv/render/mock_clip_2_3",
+        "duration": 40,
+        "created_at": "2025-01-21T12:00:00Z"
+      },
+      "stream": "TestStreamer2",
+      "failed_at": "2025-05-31T18:40:47.221479"
+    }
+  ],
+  "summary": {
+    "total_streamers": 2,
+    "total_clips": 6,
+    "successful_analyses": 0,
+    "failed_analyses": 6,
+    "success_rate": 0.0
+  }
+}

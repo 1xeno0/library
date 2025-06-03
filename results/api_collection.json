@@ -1,0 +1,130 @@
+{
+  "info": {
+    "name": "Patchwork Library Analyzer API",
+    "description": "API collection for testing the Patchwork Library Analyzer + Search API",
+    "version": "1.0.0"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": ["{{base_url}}"],
+          "path": ["health"]
+        },
+        "description": "Check if the API is running and healthy"
+      }
+    },
+    {
+      "name": "Analyze Video",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"video_link\": \"https://renderer.ezr.lv/render/680876b27ed09a50637439a\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/analyse",
+          "host": ["{{base_url}}"],
+          "path": ["analyse"]
+        },
+        "description": "Analyze a video from URL and extract metadata using AI"
+      }
+    },
+    {
+      "name": "Search Clips by Query",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"search_query\": \"gaming\",\n  \"tags\": []\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/find_clips",
+          "host": ["{{base_url}}"],
+          "path": ["find_clips"]
+        },
+        "description": "Search for clips using text query"
+      }
+    },
+    {
+      "name": "Search Clips by Tags",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"search_query\": \"\",\n  \"tags\": [\"trending\", \"gaming\"]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/find_clips",
+          "host": ["{{base_url}}"],
+          "path": ["find_clips"]
+        },
+        "description": "Search for clips using tags"
+      }
+    },
+    {
+      "name": "Search Clips Combined",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"search_query\": \"player\",\n  \"tags\": [\"trending\"]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/find_clips",
+          "host": ["{{base_url}}"],
+          "path": ["find_clips"]
+        },
+        "description": "Search for clips using both text query and tags"
+      }
+    },
+    {
+      "name": "List All Videos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/videos",
+          "host": ["{{base_url}}"],
+          "path": ["videos"]
+        },
+        "description": "List all analyzed videos in the database"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:5000",
+      "description": "Base URL for the API server"
+    }
+  ]
+} 

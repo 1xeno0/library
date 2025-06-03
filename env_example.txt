@@ -1,0 +1,21 @@
+# OpenAI Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_MODEL=gpt-4o-mini
+
+# MongoDB Configuration
+MONGODB_URI=mongodb://localhost:27017/
+DATABASE_NAME=video_analysis
+COLLECTION_NAME=videos
+
+# Video Processing Configuration
+FRAME_EXTRACTION_INTERVAL=5
+MAX_FRAMES_FOR_ANALYSIS=5
+TEMP_DIR=./temp
+
+# API Configuration
+API_HOST=0.0.0.0
+API_PORT=5000
+DEBUG=False
+
+# Video Download Configuration
+MAX_VIDEO_DURATION=3600 

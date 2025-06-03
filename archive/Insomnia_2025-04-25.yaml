@@ -1,0 +1,238 @@
+type: collection.insomnia.rest/5.0
+name: Patchwork
+meta:
+  id: wrk_6ab59a4da870431a8f917821e2cfeec8
+  created: 1743784893294
+  modified: 1743784893294
+collection:
+  - name: Patchwork
+    meta:
+      id: fld_8481705638024b5b9cfbc4f2769e514f
+      created: 1743784893297
+      modified: 1743784893297
+      sortKey: -1743784883693
+    children:
+      - name: Streams
+        meta:
+          id: fld_506435b902bb4524aa28f3fd2bbbad2d
+          created: 1743784893298
+          modified: 1743784893298
+          sortKey: -1743784883692
+        children:
+          - url: "{{base_url}}/streams"
+            name: Get Streams
+            meta:
+              id: req_8ea4f1bf131c49838bbdd065d9eeffe8
+              created: 1743784893298
+              modified: 1743785104628
+              isPrivate: false
+              sortKey: -1743784883691
+            method: GET
+            headers:
+              - name: x-api-key
+                value: "{{_['pw-api-key']}}"
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: "{{base_url}}/streams"
+            name: Create Stream
+            meta:
+              id: req_83ebec7ace51413cb0038c49df2ae2e0
+              created: 1743784893299
+              modified: 1745576844293
+              isPrivate: false
+              sortKey: -1743784883690
+            method: POST
+            body:
+              mimeType: application/json
+              text: "{\r
+
+                \    \"username\": \"LofiGirl\",\r
+
+                \    \"type\": \"youtube\"\r
+
+                }"
+            headers:
+              - name: x-api-key
+                value: "{{_['pw-api-key']}}"
+              - name: Content-Type
+                value: application/json
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: "{{base_url}}/streams/67bceed4678ac997652a59d2"
+            name: Delete Stream
+            meta:
+              id: req_d0bee4fa805347379ad95e801a3da2aa
+              created: 1743784893299
+              modified: 1743784893299
+              isPrivate: false
+              sortKey: -1743784883689
+            method: DELETE
+            headers:
+              - name: x-api-key
+                value: "{{_['pw-api-key']}}"
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - name: Force Clip
+            meta:
+              id: req_2a7caa9f795c4d8f86a0189ed3b7321e
+              created: 1743784893300
+              modified: 1743784893300
+              isPrivate: false
+              sortKey: -1743784883688
+            method: GET
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Clips
+        meta:
+          id: fld_8fc784f50df749879b16a537aa8d2298
+          created: 1743784893300
+          modified: 1743784893300
+          sortKey: -1743784883687
+        children:
+          - url: "{{base_url}}/clips"
+            name: Get Clips
+            meta:
+              id: req_c85471249ea34b95823a86c51c58995b
+              created: 1743784893300
+              modified: 1744285047011
+              isPrivate: false
+              sortKey: -1743784883686
+            method: GET
+            parameters:
+              - name: page
+                value: "0"
+                disabled: false
+                id: pair_d2b4c2a2b9a545e8821977c0d5443c2d
+              - id: pair_4f5d1d9915ab4996bbb286fa1f127c84
+                name: username
+                value: jynxzi
+                disabled: false
+              - id: pair_8538b3c385f4452988c3d684480b9ef5
+                name: limit
+                value: "2"
+                disabled: false
+            headers:
+              - name: x-api-key
+                value: "{{_['pw-api-key']}}"
+                id: pair_4b297b98f5324556a4c60659f5586a91
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: "{{base_url}}/clips/stream/678ef66b9083a4518f3030a6"
+            name: Get Clips by Stream
+            meta:
+              id: req_07f81e081e5e4443aa3840c349c90a48
+              created: 1743784893301
+              modified: 1743784893301
+              isPrivate: false
+              sortKey: -1743784883685
+            method: GET
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Auth
+        meta:
+          id: fld_cd2615d7c6404e208538a81471718660
+          created: 1743784893302
+          modified: 1743784893302
+          sortKey: -1743784883684
+        children:
+          - url: "{{base_url}}/auth/me"
+            name: Get User
+            meta:
+              id: req_696713ef5a6448dfbde84a188929b9f8
+              created: 1743784893302
+              modified: 1743784893302
+              isPrivate: false
+              sortKey: -1743784883683
+            method: GET
+            authentication:
+              type: bearer
+              disabled: false
+              token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2IzMmEzMTE1NmM0MGNhZGY3YmEzN2UiLCJwcm92aWRlciI6ImRpc2NvcmQiLCJkaXNjb3JkIjp7ImlkIjoiNTQ0MTY4MDQyMDY2NjA4MTM5IiwidXNlcm5hbWUiOiJnb2Jib28ifSwiZW1haWwiOiJzQGNuZnQuaW8iLCJ1c2VybmFtZSI6ImdvYmJvbyIsInBsYW4iOnsiYWN0aXZlIjpmYWxzZSwiZXhwaXJlc0F0IjoxNzM5Nzk0OTc1MTYyLCJwbGFuIjoiYmFzaWMifSwiX192IjowLCJpYXQiOjE3Mzk5NjkzMzMsImV4cCI6MTczOTk3MjkzM30.hNF2NNLd6hjOh3U-jr3AT3gjFAtLSINo3yaqfHuHfsQ
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+      - name: Stripe
+        meta:
+          id: fld_9ed64d516199476ca2a1cd41c4d452fd
+          created: 1743784893303
+          modified: 1743784893303
+          sortKey: -1743784883682
+        children:
+          - url: "{{base_url}}/stripe/checkout"
+            name: Create Checkout
+            meta:
+              id: req_2824a8372a3c4e96a8db84dfa2806028
+              created: 1743784893304
+              modified: 1743784893304
+              isPrivate: false
+              sortKey: -1743784883681
+            method: GET
+            authentication:
+              type: bearer
+              disabled: false
+              token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2IzMmEzMTE1NmM0MGNhZGY3YmEzN2UiLCJwcm92aWRlciI6ImRpc2NvcmQiLCJkaXNjb3JkIjp7ImlkIjoiNTQ0MTY4MDQyMDY2NjA4MTM5IiwidXNlcm5hbWUiOiJnb2Jib28ifSwiZW1haWwiOiJzQGNuZnQuaW8iLCJ1c2VybmFtZSI6ImdvYmJvbyIsInBsYW4iOnsiYWN0aXZlIjpmYWxzZSwiZXhwaXJlc0F0IjoxNzM5Nzk0OTc1MTYyLCJwbGFuIjoiYmFzaWMifSwiX192IjowLCJpYXQiOjE3Mzk5NjkzMzMsImV4cCI6MTczOTk3MjkzM30.hNF2NNLd6hjOh3U-jr3AT3gjFAtLSINo3yaqfHuHfsQ
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+    environment:
+      base_url: https://patchwork.gobbo.gg
+      pw-api-key: gv4Gp1OeZhF5eBNU7vDjDL-yqZ6vrCfdCzF7HGVMiCs
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_a0c088e1f4e32a516a2372e83210f3f22c639250
+    created: 1743784894228
+    modified: 1743784894228
+environments:
+  name: Base Environment
+  meta:
+    id: env_a0c088e1f4e32a516a2372e83210f3f22c639250
+    created: 1743784894226
+    modified: 1743784894226
+    isPrivate: false

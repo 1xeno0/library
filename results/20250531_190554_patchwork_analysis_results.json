@@ -1,0 +1,222 @@
+{
+  "processed_clips": [],
+  "failed_clips": [
+    {
+      "clip": {
+        "_id": "683b36a1f698a7f86f9d3661",
+        "stream": {
+          "_id": "6834ec37e16b642f08cdd5fc",
+          "currentTitle": "Unknown",
+          "type": "kick",
+          "username": "coscu",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "coscu",
+        "path": "https://pw-clips.gobbo.gg/clips/coscu/6834ec37e16b642f08cdd5fc_1748711071091.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:04:33.169Z",
+        "updatedDate": "2025-05-31T17:04:33.169Z",
+        "__v": 0
+      },
+      "stream": "coscu",
+      "failed_at": "2025-05-31T19:05:34.568799"
+    },
+    {
+      "clip": {
+        "_id": "683b3647f698a7f86f9d35ae",
+        "stream": {
+          "_id": "6834ec37e16b642f08cdd5fc",
+          "currentTitle": "Unknown",
+          "type": "kick",
+          "username": "coscu",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "coscu",
+        "path": "https://pw-clips.gobbo.gg/clips/coscu/6834ec37e16b642f08cdd5fc_1748710981046.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:03:03.517Z",
+        "updatedDate": "2025-05-31T17:03:03.517Z",
+        "__v": 0
+      },
+      "stream": "coscu",
+      "failed_at": "2025-05-31T19:05:36.574065"
+    },
+    {
+      "clip": {
+        "_id": "683b35edf698a7f86f9d3501",
+        "stream": {
+          "_id": "6834ec37e16b642f08cdd5fc",
+          "currentTitle": "Unknown",
+          "type": "kick",
+          "username": "coscu",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "coscu",
+        "path": "https://pw-clips.gobbo.gg/clips/coscu/6834ec37e16b642f08cdd5fc_1748710891075.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:01:33.277Z",
+        "updatedDate": "2025-05-31T17:01:33.277Z",
+        "__v": 0
+      },
+      "stream": "coscu",
+      "failed_at": "2025-05-31T19:05:38.588623"
+    },
+    {
+      "clip": {
+        "_id": "683b3593f698a7f86f9d3479",
+        "stream": {
+          "_id": "6834ec37e16b642f08cdd5fc",
+          "currentTitle": "Unknown",
+          "type": "kick",
+          "username": "coscu",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "coscu",
+        "path": "https://pw-clips.gobbo.gg/clips/coscu/6834ec37e16b642f08cdd5fc_1748710801074.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:00:03.680Z",
+        "updatedDate": "2025-05-31T17:00:03.680Z",
+        "__v": 0
+      },
+      "stream": "coscu",
+      "failed_at": "2025-05-31T19:05:40.604949"
+    },
+    {
+      "clip": {
+        "_id": "683b3539f698a7f86f9d33f7",
+        "stream": {
+          "_id": "6834ec37e16b642f08cdd5fc",
+          "currentTitle": "Unknown",
+          "type": "kick",
+          "username": "coscu",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "coscu",
+        "path": "https://pw-clips.gobbo.gg/clips/coscu/6834ec37e16b642f08cdd5fc_1748710711041.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T16:58:33.424Z",
+        "updatedDate": "2025-05-31T16:58:33.424Z",
+        "__v": 0
+      },
+      "stream": "coscu",
+      "failed_at": "2025-05-31T19:05:42.620427"
+    },
+    {
+      "clip": {
+        "_id": "683b36a0f698a7f86f9d365f",
+        "stream": {
+          "_id": "67c64634c19c12bf252e2c92",
+          "currentTitle": "Unknown",
+          "type": "twitch",
+          "username": "lacy",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "lacy",
+        "path": "https://pw-clips.gobbo.gg/clips/lacy/67c64634c19c12bf252e2c92_1748711070558.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:04:32.916Z",
+        "updatedDate": "2025-05-31T17:04:32.916Z",
+        "__v": 0
+      },
+      "stream": "lacy",
+      "failed_at": "2025-05-31T19:05:44.623896"
+    },
+    {
+      "clip": {
+        "_id": "683b3647f698a7f86f9d35ac",
+        "stream": {
+          "_id": "67c64634c19c12bf252e2c92",
+          "currentTitle": "Unknown",
+          "type": "twitch",
+          "username": "lacy",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "lacy",
+        "path": "https://pw-clips.gobbo.gg/clips/lacy/67c64634c19c12bf252e2c92_1748710980549.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:03:03.043Z",
+        "updatedDate": "2025-05-31T17:03:03.043Z",
+        "__v": 0
+      },
+      "stream": "lacy",
+      "failed_at": "2025-05-31T19:05:46.638858"
+    },
+    {
+      "clip": {
+        "_id": "683b35ecf698a7f86f9d34ff",
+        "stream": {
+          "_id": "67c64634c19c12bf252e2c92",
+          "currentTitle": "Unknown",
+          "type": "twitch",
+          "username": "lacy",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "lacy",
+        "path": "https://pw-clips.gobbo.gg/clips/lacy/67c64634c19c12bf252e2c92_1748710890555.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:01:32.833Z",
+        "updatedDate": "2025-05-31T17:01:32.833Z",
+        "__v": 0
+      },
+      "stream": "lacy",
+      "failed_at": "2025-05-31T19:05:48.647382"
+    },
+    {
+      "clip": {
+        "_id": "683b3592f698a7f86f9d3477",
+        "stream": {
+          "_id": "67c64634c19c12bf252e2c92",
+          "currentTitle": "Unknown",
+          "type": "twitch",
+          "username": "lacy",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "lacy",
+        "path": "https://pw-clips.gobbo.gg/clips/lacy/67c64634c19c12bf252e2c92_1748710800616.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T17:00:02.867Z",
+        "updatedDate": "2025-05-31T17:00:02.867Z",
+        "__v": 0
+      },
+      "stream": "lacy",
+      "failed_at": "2025-05-31T19:05:50.653019"
+    },
+    {
+      "clip": {
+        "_id": "683b3539f698a7f86f9d33f5",
+        "stream": {
+          "_id": "67c64634c19c12bf252e2c92",
+          "currentTitle": "Unknown",
+          "type": "twitch",
+          "username": "lacy",
+          "duration": 90,
+          "recording": true
+        },
+        "username": "lacy",
+        "path": "https://pw-clips.gobbo.gg/clips/lacy/67c64634c19c12bf252e2c92_1748710710600.mp4",
+        "duration": 60,
+        "createdDate": "2025-05-31T16:58:33.105Z",
+        "updatedDate": "2025-05-31T16:58:33.105Z",
+        "__v": 0
+      },
+      "stream": "lacy",
+      "failed_at": "2025-05-31T19:05:52.658838"
+    }
+  ],
+  "summary": {
+    "total_streamers": 2,
+    "total_clips": 10,
+    "successful_analyses": 0,
+    "failed_analyses": 10,
+    "success_rate": 0.0
+  }
+}
